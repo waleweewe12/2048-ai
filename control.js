@@ -45,7 +45,7 @@ function decision(){
     let allmove=[];
     let allmovescore=[];
 
-    for(let j=0;j<1000;j++)
+    for(let j=0;j<1000;j++) /*เพิ่ม ลด รอบ */
     {
         while(running)
         {
@@ -72,7 +72,7 @@ function decision(){
     let right=0;
     let count_right=0;
 
-    for(let i=0;i<1000;i++)
+    for(let i=0;i<1000;i++) /*เพิ่ม ลด รอบ */
     {
         if(allmove[i]=='up')
         {
@@ -193,7 +193,7 @@ function decision(){
     count_right=0;
 }
 
-setInterval(decision,500);
+setInterval(decision,500); /*500 คือ 0.5 วินาที */
 setInterval(pushslot,500);
 setInterval(showscore,500);
 setInterval(randomslot,500);
