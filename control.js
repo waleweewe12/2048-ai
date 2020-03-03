@@ -193,11 +193,11 @@ function decision(){
     count_right=0;
 }
 
-setInterval(decision,500); /*500 คือ 0.5 วินาที */
-setInterval(pushslot,500);
-setInterval(showscore,500);
-setInterval(randomslot,500);
-setInterval(pushslot,500);
+setInterval(decision,50); /*500 คือ 0.05 วินาที */
+setInterval(pushslot,50);
+setInterval(showscore,50);
+setInterval(randomslot,50);
+setInterval(pushslot,50);
 
 
 function randomslot(){
